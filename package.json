@@ -1,0 +1,19 @@
+{
+  "name": "learneth",
+  "version": "1.0.0",
+  "description": "Test repository for learning ethereum development tools.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smitrajput/Learneth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smitrajput/Learneth/issues"
+  },
+  "homepage": "https://github.com/smitrajput/Learneth#readme"
+}
