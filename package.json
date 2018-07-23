@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/smitrajput/Learneth/issues"
   },
-  "homepage": "https://github.com/smitrajput/Learneth#readme"
+  "homepage": "https://github.com/smitrajput/Learneth#readme",
+  "dependencies": {
+    "create-react-app": "^1.5.2"
+  }
 }
