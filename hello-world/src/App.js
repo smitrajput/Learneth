@@ -3,6 +3,21 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  constructor(props){
+    super(props);
+
+    this.state = {
+      input: ''
+    };
+
+    this.onChange = this.onChange.bind(this);
+  }
+  const onChange = (event) => {
+    this.setState({
+      input: event.target.value
+    });
+  }
+
   render() {
     return (
       <div className="App">
@@ -11,8 +26,13 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          Hi there! How are you React?
+          Hi there!
         </p>
+        <input
+          value={this.state.input}
+          onChange={this.onChange}
+        />
+        <button>Enter!</button>
       </div>
     );
   }
