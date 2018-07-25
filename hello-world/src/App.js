@@ -17,6 +17,9 @@ class App extends Component {
       input: event.target.value
     });
   }
+  const onSubmit = () => {
+  	
+  }
 
   render() {
     return (
@@ -28,11 +31,13 @@ class App extends Component {
         <p className="App-intro">
           Hi there!
         </p>
-        <input
-          value={this.state.input}
-          onChange={this.onChange}
-        />
-        <button>Enter!</button>
+        <form onSubmit={this.onSubmit}>
+	        <input
+	          value={this.state.input}
+	          onChange={this.onChange}
+	        />
+	        <button>Enter!</button>
+	    </form>
       </div>
     );
   }
