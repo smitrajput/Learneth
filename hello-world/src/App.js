@@ -10,9 +10,9 @@ class App extends Component {
       input: ''
     };
 
-    this.onChange = this.onChange.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
-  const onChange = (event) => {
+  const handleChange = (event) => {
     this.setState({
       input: event.target.value
     });
@@ -34,7 +34,7 @@ class App extends Component {
         <form onSubmit={this.onSubmit}>
 	        <input
 	          value={this.state.input}
-	          onChange={this.onChange}
+	          onChange={this.handleChange}
 	        />
 	        <button>Enter!</button>
 	    </form>
