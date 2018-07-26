@@ -12,12 +12,13 @@ class App extends Component {
 
     this.handleChange = this.handleChange.bind(this);
   }
-  const handleChange = (event) => {
+
+  handleChange = (event) => {
     this.setState({
       input: event.target.value
     });
   }
-  const onSubmit = () => {
+  onSubmit = () => {
   	
   }
 
