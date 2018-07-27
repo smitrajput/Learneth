@@ -37,6 +37,11 @@ class App extends Component {
 	          value={this.state.input}
 	          onChange={this.handleChange}
 	        />
+
+	        <input
+	          value={this.state.input}
+	          onChange={this.handleChange}
+	        />
 	        <button>Enter!</button>
 	    </form>
       </div>
