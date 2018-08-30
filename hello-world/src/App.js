@@ -27,7 +27,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">This is the default home page of the create-react-app</h1>
         </header>
         <p className="App-intro">
           Hi there!
