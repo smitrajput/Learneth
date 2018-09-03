@@ -1,2 +1,2 @@
 # Learneth
-Test repository for learning ethereum development tools.
+Test repo for learning a variety of different ethereum development tools.
